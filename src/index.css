@@ -1,13 +1,114 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cart {
+  margin-top: 100px;
+}
+
+.productcart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+#cart {
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.addcart {
+  background-color: #0d6efd;
+  color: white;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+tr th,
+td {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+tr th:hover,
+td:hover {
+  background-color: azure;
+}
+
+tr {
+  margin-bottom: 15px;
+}
+
+.buttonclass1 {
+  width: 105px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(20, 225, 9);
+  border-radius: 5px;
+}
+
+.buttonclass2 {
+  width: 105px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(245, 36, 8);
+  border-radius: 5px;
+}
+.tablecomponent {
+  margin-top: 35px;
+}
+
+#cartid {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#placeorderid {
+  text-align: center;
+  background-color: rgb(227, 112, 227);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#placeorderid:hover {
+  transform: scale(1.1, 1);
+}
+.carImg{
+  width: 17rem;
+  height: 16rem;
+  margin-left: 7px;
+
+}
+.carImg:hover{
+      transform: scale(1.1,1.1);
+}
+
+.fade-in-image {
+   animation: fadeIn 5s; 
+   border-radius:15px;
+  }
+  .img1{
+    border-radius: 5px;
+    opacity: .9 ;
+  }
+  
